@@ -1,0 +1,195 @@
+
+body {
+  background-color: hsl(27, 66%, 92%);
+}
+
+
+hr {
+  margin-top: 0px;
+  margin-left: 25px;
+  width: 85%;
+  color: orange;
+}
+
+
+h4, .last-part-total {
+  padding-left: 30px;
+}
+
+
+h3 {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+
+p {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 200;
+  margin: 0;
+}
+
+.circle2 {
+text-align: right;
+padding-top: 7px;
+padding-right: 20px;
+}
+
+/* PaddingLeft & Align(Days) */
+.down-tue,
+.down-wed,
+.down-thu,
+.down-fri,
+.down-sat,
+.down-sun,
+h3,
+p {
+  padding-left: 20px;
+}
+
+.down-tue,
+.down-wed,
+.down-thu,
+.down-fri,
+.down-sat,
+.down-sun {
+  text-align: center;
+}
+
+
+
+
+/* Days of the week */
+.down {
+  background-color: hsl(10, 79%, 65%);
+  width: 35px;
+  height: 35px;
+  border-radius: 10%;
+  border: 2.5px solid;
+  border-color: #fff;
+}
+
+
+.down:hover {
+  background-color: hsl(27, 66%, 92%);
+}
+
+.down-mon {
+  padding-top: 120px;
+  padding-left: 5px;
+}
+
+
+.down-tue {
+  padding-top: 80px;
+}
+
+
+.down-tue .down {
+  height: 75px;
+}
+
+
+.down-wed {
+  padding-top: 50px;
+  display: inline-block;
+}
+
+
+.down-wed .down {
+  height: 105px;
+  background-color: #A5D7F8;
+  display: inline-block;
+}
+
+.down-wed .down:hover {
+  background-color: hsl(27, 66%, 92%);
+}
+
+.down-thu {
+  padding-top: 90px;
+}
+
+
+.down-thu .down {
+  height: 65px;
+}
+
+
+.down-fri {
+  padding-top: 100px;
+}
+
+
+.down-fri .down {
+  height: 55px;
+}
+
+
+.down-sat {
+  padding-top: 65px;
+}
+
+
+.down-sat .down {
+  height: 90px;
+}
+
+
+.down-sun {
+  padding-top: 95px;
+}
+
+
+.down-sun .down {
+  height: 60px;
+}
+
+
+.graphics {
+  width: 400px;
+  height: 350px;
+  background-color: #fff;
+  margin: 0 auto;
+  border-radius: 5%;
+}
+
+.graphics-title {
+  padding-top: 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+}
+
+.graphics-div {
+  display: flex;
+  width: 400px;
+  height: 200px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 200;
+  justify-content: center;
+}
+
+.last-part-text {
+  font-size: 15px;
+}
+
+.padding-text-align-right {
+  text-align: right;
+  padding-right: 20px;
+  font-size: 13px;
+}
+
+.pad-top-last-part {
+  padding-top: 20px;
+}
+
+.top {
+  background-color: hsl(10, 79%, 65%);
+  width: 400px;
+  height: 75px;
+  margin: 150px auto 15px;
+  border-radius: 5%;
+  border: 5px solid;
+  border-color: #fff;
+}
