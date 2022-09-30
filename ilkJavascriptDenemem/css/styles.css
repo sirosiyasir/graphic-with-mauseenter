@@ -184,6 +184,12 @@ p {
   padding-top: 20px;
 }
 
+.text-on-hover,
+.text-on-hover-2 {
+  background-color: #000;
+  color: #fff;
+}
+
 .top {
   background-color: hsl(10, 79%, 65%);
   width: 400px;
