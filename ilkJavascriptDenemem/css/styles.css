@@ -12,7 +12,7 @@ hr {
 }
 
 
-h4, .last-part-total {
+h4, .last-total {
   padding-left: 30px;
 }
 
@@ -30,7 +30,9 @@ p {
   margin: 0;
 }
 
-.circle2 {
+
+/* CLASS */
+.circle {
 text-align: right;
 padding-top: 7px;
 padding-right: 20px;
@@ -147,7 +149,7 @@ p {
 }
 
 
-.graphics {
+.grap {
   width: 400px;
   height: 350px;
   background-color: #fff;
@@ -155,13 +157,13 @@ p {
   border-radius: 5%;
 }
 
-.graphics-title {
+.grap-title {
   padding-top: 15px;
   font-family: 'DM Sans', sans-serif;
   font-weight: 700;
 }
 
-.graphics-div {
+.grap-div {
   display: flex;
   width: 400px;
   height: 200px;
@@ -170,17 +172,17 @@ p {
   justify-content: center;
 }
 
-.last-part-text {
+.last-text {
   font-size: 15px;
 }
 
-.padding-text-align-right {
+.pad-right {
   text-align: right;
   padding-right: 20px;
   font-size: 13px;
 }
 
-.pad-top-last-part {
+.pad-last {
   padding-top: 20px;
 }
 
